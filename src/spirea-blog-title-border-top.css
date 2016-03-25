@@ -1,0 +1,6 @@
+#container-inner:before {
+  content:"";
+  display: block;
+  height: 6px;
+  background: #FF8888;
+}

@@ -1,0 +1,39 @@
+
+.history {
+    border: 1px solid #CCC;
+    padding: 20px;
+    margin-bottom:20px;
+    max-width: 500px;
+}
+.history img {
+    float: left;
+    width:20%;
+}
+@media (max-width: 480px) {
+.history img {
+    width: 25%;
+}
+}
+.history:after {
+    display: block;
+    content: "";
+    clear: left;
+}
+.history-info {
+    margin-left: 5%;
+    float: left;
+    width:70%;
+}
+.history-date span {
+    font-size: 13px;
+}
+.history-title a {
+    font-size: 18px;
+    color: #256CC5;
+}
+.history-date-ins {
+    margin-left: 10px;
+}
+.history-content span {
+    font-size:13px;
+}
